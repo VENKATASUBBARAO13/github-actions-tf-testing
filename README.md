@@ -207,30 +207,32 @@ Important workflow configuration:
 
 ## Screenshots
 
-The screenshots below document the configuration and successful workflow execution. Add the supplied images to a repository folder named `docs/images/` using the filenames in this table; the Markdown image links are already prepared for those paths.
+The screenshots supplied during this conversation are mapped below in the order that matches the setup and deployment process. The README is committed now; the image files themselves still need to be uploaded to `docs/images/` in the repository before the embedded previews will render.
 
 | Screenshot | What it demonstrates | Image path |
 |---|---|---|
-| 1 | Repository Actions secrets page showing the two secret names | `docs/images/01-actions-secrets.jpg` |
-| 2 | Production environment and required reviewer configuration | `docs/images/02-production-environment.jpg` |
-| 3 | Workflow run waiting in the queue | `docs/images/03-workflow-queued.jpg` |
-| 4 | Terraform workflow run and execution result | `docs/images/04-workflow-run.jpg` |
-| 5 | AWS VPC console showing the provisioned VPC resources | `docs/images/05-aws-vpc-resources.jpg` |
-| 6 | Terraform GitHub Actions workflow YAML | `docs/images/06-workflow-yaml.jpg` |
-| 7 | Terraform Deploy run with plan and apply jobs | `docs/images/07-deploy-run.jpg` |
-| 8 | Apply job waiting for production approval | `docs/images/08-pending-approval.jpg` |
-| 9 | Review deployments dialog and approval action | `docs/images/09-approve-deployment.jpg` |
-| 10 | Successful Terraform Deploy run after approval | `docs/images/10-successful-deployment.jpg` |
-| 11 | AWS VPC console after deployment verification | `docs/images/11-aws-vpc-verification.jpg` |
-| 12 | GitHub Actions workflow run history | `docs/images/12-workflow-history.jpg` |
+| 1 | Repository Actions secrets page showing the two secret names (supplied `photo_1`) | `docs/images/01-actions-secrets.jpg` |
+| 2 | Production environment and required reviewer configuration (supplied `photo_2`) | `docs/images/02-production-environment.jpg` |
+| 3 | Workflow run queued before jobs start (supplied `photo_3`) | `docs/images/03-workflow-queued.jpg` |
+| 4 | Terraform workflow execution result and annotations (supplied `photo_4`) | `docs/images/04-workflow-run.jpg` |
+| 5 | AWS VPC console showing the VPC list (supplied `photo_5`) | `docs/images/05-aws-vpc-resources.jpg` |
+| 6 | Terraform GitHub Actions workflow YAML (supplied `photo_6`) | `docs/images/06-workflow-yaml.jpg` |
+| 7 | Terraform Deploy run queued (supplied `photo_7`) | `docs/images/07-deploy-run.jpg` |
+| 8 | Apply job waiting for production approval (supplied `photo_8`) | `docs/images/08-pending-approval.jpg` |
+| 9 | Review deployments dialog and approval action (supplied `photo_9`) | `docs/images/09-approve-deployment.jpg` |
+| 10 | Successful Terraform Deploy run after approval (supplied `photo_10`) | `docs/images/10-successful-deployment.jpg` |
+| 11 | AWS VPC console after deployment verification (supplied `photo_11`) | `docs/images/11-aws-vpc-verification.jpg` |
+| 12 | GitHub Actions workflow run history (supplied `photo_12`) | `docs/images/12-workflow-history.jpg` |
 
-### Screenshot preview
+### Add the screenshot files
 
-Once the image files have been added to `docs/images/`, you can display them in this section using Markdown, for example:
+Create `docs/images/` in the repository and upload the 12 supplied screenshots using the exact filenames in the table above. Then add image previews where useful with standard relative Markdown image links, for example:
 
 ```md
 ![Production environment approval](docs/images/02-production-environment.jpg)
 ```
+
+The screenshot attachments are available in this chat, but this GitHub file-writing connection can create text files only; it cannot upload the attached JPG binaries. I have therefore not added broken image embeds or claimed that the screenshots are already stored in the repository.
 
 ## Run Terraform Locally (Optional)
 
